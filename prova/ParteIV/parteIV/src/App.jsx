@@ -4,6 +4,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   const [text, setText] = useState("");
+  const [visible, setVisibility] = useState(false)
 
   return (
     <>
@@ -25,6 +26,15 @@ function App() {
         <h1>{text}</h1>
         <input type="text" onChange={(event) => setText(event.target.value)}/>
       </div>
+
+      {visible && 
+        <div className='visibility'>
+          <h1>nao invisivel</h1>
+        </div>}
+
+        <button onClick={() => {setVisibility(visible == true ? false :true)}}>
+          Set Visibility
+        </button>
     </>
   )
 }
