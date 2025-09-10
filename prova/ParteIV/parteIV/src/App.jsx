@@ -28,7 +28,7 @@ function App() {
       </div>
 
       {visible && 
-        <div className='visibility'>
+        <div className='visibility' style={{color: 'gray', fontSize: "18px"}}>
           <h1>nao invisivel</h1>
         </div>}
 
