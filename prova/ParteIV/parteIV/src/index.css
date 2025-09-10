@@ -64,3 +64,10 @@ button {
 .count{
   color: #c204b8;
 }
+
+input{
+  height: 20px;
+  border-color: rgb(212, 189, 255);
+  border-radius: 30px 30px 30px 30px;
+  transition: background-color 0.2s ease;
+}

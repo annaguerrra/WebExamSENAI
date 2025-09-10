@@ -3,6 +3,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [text, setText] = useState("");
 
   return (
     <>
@@ -19,8 +20,12 @@ function App() {
           -
         </button>
       </div>
+
+      <div className='4b'>
+        <h1>{text}</h1>
+        <input type="text" onChange={(event) => setText(event.target.value)}/>
+      </div>
     </>
   )
 }
-
 export default App
