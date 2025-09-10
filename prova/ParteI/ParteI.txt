@@ -1,0 +1,42 @@
+1 - Em que situações você usaria o arquivo .gitignore? Cite exemplos práticos e
+explique a utilidade deste arquivo.
+
+Ignorar arquivos temporários, caches e demais dependências.  
+Ex.: Node Modules.
+
+
+2.  - O que é um pull request no GitHub? Qual a importância dele para projetos
+colaborativos?
+
+Junta branchs, geralmente são feito com a main. Usado em trabalhos 
+colaborativos para que não seja commitado no código principal.
+
+
+3 - Qual a diferença entre git commit e git push?
+
+O Commit salva a sua versão do código e o Push envia suas atualização ao repositório
+
+
+4 – O que são conventional commits e conventional branches? Para qual finalidade
+eles seriam utilizados e resolveriam qual tipo de problema?
+
+Conventional Commits: É um padrão de escrita de mensagens de commit. 
+O mesmo vale para Conventional Branchs: É uma padronização dos nomes das branchs, facilita a organização, desenvolvimento e
+controle do código.
+
+
+5 - Você clonou um repositório remoto, irá criar uma branch chamada
+feature/login para fazer alguns commits. Escreva os comandos e passo a passo
+necessários para:
+
+    a. Enviar essa branch para o repositório remoto.
+        1. git add . 
+        2. git commit -m "mensagem
+        3. git push
+        
+    b. Criar um pull request no GitHub.
+        1. Entra na interface do git hub, 
+        2. Clicar em "new Pull request"
+        3. Verifique o merge editor e se está tudo nos conformes
+        4. Dê ok no merge
+        5. Aprove.
