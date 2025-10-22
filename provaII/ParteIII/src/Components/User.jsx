@@ -11,7 +11,7 @@ export default function User (){
     })
 
     const getUserData = async () => {
-        const response = await axios.get("https://avaliacao-bosch.onrender.com/usuario.");
+        const response = await axios.get("https://avaliacao-bosch.onrender.com/usuario");
         setData(response.data);
         console.log(response.data)
     }
