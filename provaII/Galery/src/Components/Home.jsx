@@ -29,13 +29,13 @@ export default function Home() {
     return(
         <>
             <div>
-                <ul className="flex flex-row justify-center items-start gap-5 ">
+                <ul className="grid grid-rows-3 justify-center items-center gap-5 ">
                     {info.map(info => (
                         <li key={info.id
                         }>
-                            <div className="w-250px h-150px bg-gray-100">
-                                <p>DivaID {info.id}</p>
-                                <img src={info.imagem} alt="" width="60px" />
+                            <div className="w-350px h-200px bg-gray-100 shadow-2xl "> 
+                                <p className="font-thin">DivaID {info.id}</p>
+                                <img src={info.imagem} alt="" width="60px" height="60px"  />
                                 <h3 className="text-2xl">{info.nome}</h3> <p> '{info.apelido}'</p>
                                 {/* <p>{Matricula}</p> */}
                             </div>
