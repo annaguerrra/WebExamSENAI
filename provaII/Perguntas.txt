@@ -1,0 +1,24 @@
+1. Parte I – Perguntas
+
+1. O que acontece se você não passar o segundo parâmetro ([]) no useEffect?
+
+    Colocamos o [], para ele não rodar sem parar a função, com os colchetes ele roda apenas uma vez.
+
+
+2. Explique o conceito de props no React. Por que é importante que
+componentes recebam dados através das props?
+
+    Dados passados pelo componente pai, props são usados durante a inicialização do componente.
+    Ele é importante pois através dele é que o nosso componente é moldado, seus elementos são formados e atualizados.
+
+3. O que o TailwindCSS oferece de vantagem em relação ao CSS tradicional?
+
+    O TailwindCSS oferece vantagem visto que torna desnecessário o uso de arquivos .css. Pois, os componentes podem ser estilizados dentro da classe
+
+4. Identifique o problema no código abaixo e marque a alternativa que exibe o
+problema do código.
+
+    Alternativa correta 'C'
+    C. O useEffect depende de contador e, ao atualizá-lo dentro dele, causa
+    um loop de renderizações.
+
