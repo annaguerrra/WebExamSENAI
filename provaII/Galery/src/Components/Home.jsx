@@ -4,7 +4,6 @@ import axios from "axios";
 
 export default function Home() {
     const [info, setInfo] = useState([]);
-    const navigate = useNavigate();
 
     useEffect(() => {
         getInfo();
